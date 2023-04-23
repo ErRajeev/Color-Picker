@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    background-color: darkcyan;
+}
+
+.main {
+    align-items: center;
+}
+
+.colorbox {
+    display: flex;
+    margin: 5rem 15rem 5rem 15rem;
+    justify-content: space-between;
+}
+
+.red,
+.blue,
+.green,
+.cyan,
+.result {
+    height: 3.5rem;
+    width: 11rem;
+    border-radius: 5px;
+}
+
+.red,
+.blue,
+.green,
+.cyan:hover {
+    cursor: pointer;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.cyan {
+    background-color: rgb(11, 59, 59);
+}
+
+.result {
+    background-color: gray;
+    margin: auto;
+}
